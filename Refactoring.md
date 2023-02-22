@@ -8,7 +8,7 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
-## Your Explanation Here
+## Karis Courey's Explanation Here
 
 I refactored based on modular portions of functionality performed on `event` and `candidate`. These modular portions of functionality are best defined as `setCandidate()`, in which `candidate` is declared based on `event` or `event.partitionKey`; `stringifyCandidate()`, in which `candidate` is stringified, as needed, or set to the trivial key,`TRIVIAL_PARTITION_KEY`; and `updateCandidate()`, in which `candidate.length` is compared to `MAX_PARTITION_KEY_LENGTH` to determine if updating `candidate` to its hash is required.
 </br>
