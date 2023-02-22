@@ -78,3 +78,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
         - Have React state update on Input field updating with `updateField()` and `dispatch()`
         - Add  `onClick` functionality to button
             - On click, POST to `agent_relational` API endpoint with value from Select and Input fields
+        - Test as previously described when setting up backend API (ensure db is being updated)
+        - Note
+            - Could break this ticket down into two tickets, as needed:
+                - Set up frontend UI without integration with backend
+                - Integrate with backend
