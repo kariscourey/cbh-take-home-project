@@ -16,4 +16,10 @@ I refactored based on modular portions of functionality performed on `event` and
 I further abstracted away the hashing mechanism to `shaHash()`, as its functionality was repeated within the provided code, to improve debugging in a production environment.
 </br>
 
+In addition, I moved the global constants outside of each function to follow JS best practices.
+</br>
+
 This version is more readable as it clearly defines each modular portion of code as it relates to `event` and `candidate` into smaller subsections of code with single purposes. This will permit more ease of debugging and maintenance as opposed to its non-refactored counterpart.
+</br>
+
+The tests written are exhaustive based on the information given. Cases of non-existent, empty, non-string, string, exceeded-max-partition-length, equal-to-max partition-length, less-than-max-partition-lengt are assessed.

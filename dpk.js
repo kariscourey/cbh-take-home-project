@@ -1,7 +1,8 @@
-const crypto = require("crypto");
-
+// declare globals
 const TRIVIAL_PARTITION_KEY = "0";
 const MAX_PARTITION_KEY_LENGTH = 256;
+
+const crypto = require("crypto");
 
 // shahash, return digest
 const shaHash = (input) => {

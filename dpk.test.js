@@ -6,7 +6,7 @@ describe("deterministicPartitionKey", () => {
     expect(trivialKey).toBe("0");
   });
 
-  // check event with partitionkey
+  // check event with string partitionkey
   it("Returns non-trivial hash when given non-trivial input", () => {
     const testEvent = {
       paritionKey: 'test',
